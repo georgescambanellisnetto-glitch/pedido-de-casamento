@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma Surpresa Especial ❤️</title>
+    <!-- Conectando o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   #carroel img=" {#carrocel\ dispplay: none;}
+    <div class="card">
+        <!-- Coloca a foto de vocês aqui mano -->
+        <img src="foto-do-casal.jpg" alt="Nossa Foto" class="foto-casal">
+        
+        <h1>Meu Amor... ❤️</h1>
+        
+        <p>
+            Construir cada momento ao seu lado tem sido a melhor jornada da minha vida. 
+            Preparei essa pequena surpresa para te dizer algo muito especial...
+        </p>
+
+        <button class="btn-principal" id="btnSurpresa">
+            ✨ Clique aqui para ver a surpresa ✨
+        </button>
+    </div>
+
+    <!-- Modal do Pedido -->
+    <div class="overlay" id="overlayPedido">
+        <div class="pedido-box">
+            <div class="alianca-icon">💍</div>
+            <h2>Quer Casar Comigo?</h2>
+            <p>
+                Você é o amor da minha vida e eu quero passar o resto dos meus dias ao seu lado. 
+                Aceita fazer de mim a pessoa mais feliz do mundo pra sempre?
+            </p>
+
+            <button class="btn-resposta" id="btnSim">ACEITO! ❤️</button>
+        </div>
+    </div>
+
+    <!-- Música de Fundo (Coloca o seu arquivo de áudio aqui) -->
+    <audio id="musicaFundo" src="musica-romantica.mp3" loop></audio>
+
+    <!-- Conectando o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
